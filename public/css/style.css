@@ -1,0 +1,67 @@
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.inline-card {
+    display: inline-block;
+}
+.add-margin-top-little {
+    margin-top: 10px;
+}
+.add-margin-top-normal {
+    margin-top: 20px;
+}
+.add-margin-top-high {
+    margin-top: 30px;
+}
+.add-margin-right-little {
+    margin-right: 10px;
+}
+.add-margin-right-normal {
+    margin-right: 20px;
+}
+.add-margin-right-high {
+    margin-right: 30px;
+}
+.semesterHeader {
+    width: 100%;
+    padding: 20px;
+    background-color: #ECEEEF;
+}
+.subjectsHeader {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 5px;
+}
+.cf {
+
+}
+.cf:before, .cf:after {
+    content: "";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.subjectHeaderElement {
+    float: right;
+    cursor: pointer;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subjectHeaderElement:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+}
+.downloadLink {
+    cursor: pointer;
+    float: right;
+}
