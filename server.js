@@ -60,6 +60,12 @@ app.get('/loadExperiments', (req, res) => {
                     res.send(items);
                 });
                 break;
+            case 'ITEXT':
+                var filesindir = path.join(__dirname, `/public/files/${req.query.semester}/${req.query.subjectName}`);
+                fs.readdir(filesindir, (err, items) => {
+                    res.send(items);
+                });
+                break;
         }
     }
 });
